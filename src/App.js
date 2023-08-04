@@ -14,13 +14,16 @@ function App() {
 
     <body>
       <div class="tela-inteira">
-        <Header/> /*Meu header está aqui*/
+        <Header /> /*Meu header está aqui*/
 
         <main>
           <Nav/>
 
           <Home reproduz={reproduzVideo} />
            {/* para facilitar pode trocar para qualquer nome, trocamos o reporduzVideo para reproduz para FACILITAR */}
+
+          
+
         </main>
 
       </div>

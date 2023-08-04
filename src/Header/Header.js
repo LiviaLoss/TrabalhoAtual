@@ -1,13 +1,12 @@
-import { logo } from "./styled"
-
+import logo from "../assets/logo.png"
+import { Cabecalho } from "./styled.jsx"
 
 function Header(){
     return(
-        <header>
-            <h1>Video</h1>
-            <img src={logo.png} />
+        <Cabecalho>
+            <img src={logo} />
             <input type="text" placeholder="Busca" id="campoDeBusca"></input>
-        </header>
+        </Cabecalho>
     )
 }
 
