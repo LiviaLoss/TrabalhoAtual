@@ -1,6 +1,6 @@
 import "./style.css"
 import Nav from "../src/Nav/Nav"
-import Footer from "../src/Footer/Footer"
+import Footer from "./Components/Footer/Footer"
 import Header from "../src/Header/Header"
 import Home from "../src/Pages/home"
 
